@@ -1,0 +1,76 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html,body{
+    background-color: darkgrey;
+    min-height: 100vh;
+}
+header{
+    background-color: black;
+}
+header >h1{
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+    font-family: 'Passion One', cursive;
+    font-variant: small-caps;
+    font-size: 10vw;
+    letter-spacing: 3px;
+}
+header >p{
+    padding-bottom: 50px;
+}
+.text-poesia{
+    color: white;
+    text-align: center;
+    font-size: 1.3em;
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: .75em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a:hover{
+    text-decoration: underline;
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-size: 3.5vw;
+    font-family: 'Sriracha', cursive;
+}
+section.normal{
+    background-color: white;
+}
+section.normal p{
+    color: black;
+}
+section.image{
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.639);
+}
+section.image p{
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.517);
+    color: white;
+}
+#poesia{
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+}
+#poema{
+    background-image: url('../imagens/background002.jpg');
+
+}
+footer{
+    background-color: black;
+    padding: 5px;
+}
